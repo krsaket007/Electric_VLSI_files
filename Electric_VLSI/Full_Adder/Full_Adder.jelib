@@ -1,0 +1,34 @@
+# header information:
+HFull_Adder|9.07
+
+# Views:
+Vlayout|lay
+
+# External Libraries:
+
+LInverter|Inverter
+
+LNand|Nand
+
+# Cell Full_Adder;1{lay}
+CFull_Adder;1{lay}||mocmos|1595642221291|1595645059926||DRC_last_good_drc_area_date()G1595645100211
+IInverter:Inv;1{lay}|Inv@0||28|5|||D5G4;
+INand:NAND;1{lay}|NAND@0||-50.5|0|||D5G4;
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-Pin|pin@0||-6|27.5||||
+NMetal-1-Pin|pin@1||-5.5|-31||||
+NMetal-1-Pin|pin@2||-5.5|-31.5||||
+NMetal-2-Pin|pin@3||-64|0||||
+NMetal-2-Pin|pin@4||-83|0||||
+NMetal-2-Pin|pin@5||-11|12||||
+NMetal-2-Pin|pin@6||2|12||||
+NMetal-2-Pin|pin@7||-17.5|-2.5||||
+AMetal-1|net@0||1|S0|Inv@0|vdd|29|27.5|pin@0||-6|27.5
+AMetal-1|net@1||1|S0|pin@0||-6|27.5|NAND@0|VDD|-41.5|27.5
+AMetal-1|net@2||1|S0|Inv@0|gnd|29.5|-31|pin@1||-5.5|-31
+AMetal-1|net@3||1|S900|pin@1||-5.5|-31|pin@2||-5.5|-31.5
+AMetal-1|net@4||1|S1800|NAND@0|GND|-41|-31.5|pin@2||-5.5|-31.5
+AMetal-2|net@5||2|S0|pin@3||-64|0|pin@4||-83|0
+AMetal-2|net@6||2|S1800|pin@5||-11|12|pin@6||2|12
+AMetal-1|net@7||1|S1800|NAND@0|OUT|-17.5|-2|Inv@0|in|7|-2
+X
